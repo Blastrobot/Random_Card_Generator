@@ -1,1 +1,28 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+  font-size: 40px;
+}
+.card {
+  display: inline-block;
+  margin: auto;
+  border-radius: 10px;
+  height: 250px;
+  width: 200px;
+  padding: 10px;
+  position: relative;
+}
+.number {
+  line-height: 215px;
+}
+.top-icon {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+}
+.bot-icon {
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+  transform: rotate(180deg);
+}
